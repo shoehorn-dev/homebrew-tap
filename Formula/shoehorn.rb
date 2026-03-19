@@ -1,26 +1,26 @@
 class Shoehorn < Formula
   desc "CLI for the Shoehorn Internal Developer Portal"
   homepage "https://github.com/shoehorn-dev/cli"
-  version "0.2.5"
+  version "0.2.6"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.5/shoehorn_darwin_arm64.tar.gz"
-      sha256 "910f607d295c14d7ffc64d68246f71cbcf99869e0bc2628be55e48217b5f0c13"
+      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.6/shoehorn_darwin_arm64.tar.gz"
+      sha256 "3ddeda7d33d0a822f6527e111c5a650fabfad0289e233c7d727ca6258a6e43cb"
     else
-      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.5/shoehorn_darwin_amd64.tar.gz"
-      sha256 "acfc984c16c1395c79832747746c6350bcbd86167f4c7dfeb7feae2773c7bcde"
+      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.6/shoehorn_darwin_amd64.tar.gz"
+      sha256 "6cb2d34a1115630aecdc447e1009b6ad3a824cb7ed9ce5b0620f12d36091ae71"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.5/shoehorn_linux_arm64.tar.gz"
-      sha256 "68211c0d89e88a95cd721a8cbce8c28859f9e37fbee50ec197080fd128f8f755"
+      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.6/shoehorn_linux_arm64.tar.gz"
+      sha256 "b08b335c46daa5924644f242a2fec6b208c41abb6fcaf044c26f8ca716a968fc"
     else
-      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.5/shoehorn_linux_amd64.tar.gz"
-      sha256 "bc2901c4635cb57af37f751abdd3e862a39b34ccdd965fa2fb49d29bd3729217"
+      url "https://github.com/shoehorn-dev/cli/releases/download/v0.2.6/shoehorn_linux_amd64.tar.gz"
+      sha256 "73fd35da8a73449035c52d7b8b2ec3e021e3a475351dc989b69c4c5f2fec655d"
     end
   end
 
